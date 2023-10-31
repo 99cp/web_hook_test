@@ -20,7 +20,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "webhook docker test + build test + build test no sudo message + socket permission + dockerhub upload1";
+        return "webhook docker test + build test + build test no sudo message + socket permission + dockerhub upload1 + one more check";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
