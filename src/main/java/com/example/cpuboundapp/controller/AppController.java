@@ -20,7 +20,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "webhook test restart!!12!!!";
+        return "webhook test restart!!12!!! + sleep 60 + instance 3,4 only";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
